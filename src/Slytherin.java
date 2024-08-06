@@ -52,6 +52,8 @@ public class Slytherin extends Hogwarts {
 
         if (s1 > s2) {
             System.out.println(this.getName() + " лучший Слизеринец, чем " + other.getName());
+        } else if (s1 == s2) {
+            System.out.println(this.getName() + " и " + other.getName() + " равны по силе");
         } else {
             System.out.println(other.getName() + " лучший Слизеринец, чем " + this.getName());
         }

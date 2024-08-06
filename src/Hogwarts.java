@@ -42,9 +42,17 @@ public class Hogwarts {
         }
 
         if (transgressionDistance > other.transgressionDistance) {
-            System.out.println(name + " обладает большей дистанцией магии, чем  " + other.name);
+            System.out.println(name + " обладает большей дистанцией трансгрессии, чем  " + other.name);
         } else {
-            System.out.println(other.name + " обладает большей дистанцией магии, чем  " + name);
+            System.out.println(other.name + " обладает большей дистанцией трансгрессии, чем  " + name);
+        }
+
+        if (magicPower == other.magicPower) {
+            System.out.println(name + " и " + other.name + " равны по силе магии");
+        }
+
+        if (transgressionDistance == other.transgressionDistance) {
+            System.out.println(transgressionDistance + " и " + other.transgressionDistance + " равны по дистанции трансгрессии");
         }
     }
 
